@@ -7,11 +7,10 @@ window.addEventListener('load', function() {
     4. Circulo
     */
 
-    let base = parseInt(prompt("Ingrese la Base del Rectángulo"));
-    let altura = parseInt(prompt("Ingrese la Altura del Rectángulo"));
+    let lado = parseInt(prompt("Ingrese la medida del lado del Cuadrado"));
     let area;
 
-    area=(base*altura)
-    document.write(`El Área del Rectángulo es: ` +area)
+    area=(lado*lado)
+    document.write(`El Área del Cuadrado es: ` +area)
     
 })
