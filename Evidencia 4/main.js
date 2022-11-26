@@ -6,11 +6,11 @@ window.addEventListener('load', function() {
     3. Cuadrado
     4. Circulo
     */
-
-    let lado = parseInt(prompt("Ingrese la medida del lado del Cuadrado"));
+    let pi = Math.PI;
+    let radio = parseInt(prompt("Ingrese el radio del  Circulo"));
     let area;
 
-    area=(lado*lado)
-    document.write(`El Área del Cuadrado es: ` +area)
+    area=(pi*Math.pow(radio,2))
+    document.write(`El Área del Circulo es: ` +area)
     
 })
