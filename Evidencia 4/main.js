@@ -7,11 +7,11 @@ window.addEventListener('load', function() {
     4. Circulo
     */
 
-    let base = parseInt(prompt("Ingrese la Base del Triángulo"));
-    let altura = parseInt(prompt("Ingrese la Altura del Triángulo"));
+    let base = parseInt(prompt("Ingrese la Base del Rectángulo"));
+    let altura = parseInt(prompt("Ingrese la Altura del Rectángulo"));
     let area;
 
-    area=(base*altura)/2
-    document.write(`El Área del Triángulo es: ` +area)
+    area=(base*altura)
+    document.write(`El Área del Rectángulo es: ` +area)
     
 })
